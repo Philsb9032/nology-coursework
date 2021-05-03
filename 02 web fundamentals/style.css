@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, verdana, sans-serif;
+}
+
+*::selection{
+  color: white;
+  background-color: blue;
+}
+
+body {
+  background-color: white;
+  max-width: 1400px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  height: 80px;
+  padding: 40px;
+  color: rgb(94, 92, 89);
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+.card{
+  width: 300px;
+  height: auto;
+  border: 1px solid gold;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: midnightblue;
+  box-shadow: 5px 5px 5px 5px gold;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card1{
+  width: 300px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: midnightblue;
+  box-shadow: 5px 5px 5px 5px blue;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.card1:hover {
+  opacity: 1;
+}
+
+.card2{
+  width: 300px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: midnightblue;
+  box-shadow: 5px 5px 5px 5px pink;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.card2:hover {
+  opacity: 1;
+}
+
+.card3{
+  width: 300px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: midnightblue;
+  box-shadow: 5px 5px 5px 5px #ff2400;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.card3:hover {
+  opacity: 1;
+}
+
+.card img {
+  margin: 10px;
+  min-height: 300px;
+  border-radius: 30px;
+}
+
+.card1 img {
+  margin: 10px;
+  min-height: 300px;
+  border-radius: 30px;
+}
+
+.card2 img {
+  margin: 10px;
+  min-height: 300px;
+  border-radius: 30px;
+}
+
+.card3 img {
+  margin: 10px;
+  min-height: 300px;
+  border-radius: 30px;
+}
+
+h2, h3, h4, h5h6 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#penelope-list {
+  list-style-type: none;
+}
+
+li:hover{
+  color: blue;
+}
+
+span {
+  font-size: 1.5em;
+  color: #e9967a;
+}
+
+
+

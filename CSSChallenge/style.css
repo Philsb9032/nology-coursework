@@ -1,0 +1,150 @@
+.german-flag {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.german-flag:hover {
+    opacity: 0;
+}
+
+.band-one {    
+    width: 600px;
+    height: 100px;
+    background-color: #000;
+          
+}
+
+.band-two {
+    width: 600px;
+    height: 100px;
+    background-color: #f00;
+    top: 100px; 
+ 
+}
+
+.band-three {
+    width: 600px;
+    height: 100px;
+    background-color: gold;
+    top: 200px;
+}
+
+.hungarian-flag {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+
+}
+
+.hungarian-flag:hover {
+    opacity: 1;
+}
+
+.band-four {    
+    width: 600px;
+    height: 100px;
+    background-color: #f00;
+          
+}
+
+.band-five {
+    width: 600px;
+    height: 100px;
+    background-color: #fff;
+    top: 100px; 
+ 
+}
+
+.band-six {
+    width: 600px;
+    height: 100px;
+    background-color: #008000;
+    top: 200px;
+}
+
+.french-flag {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;    
+    position: relative;
+    top: 375px;
+    left: 50px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.french-flag:hover {
+    opacity: 0;
+}
+
+.stripe-one {
+    width: 200px;
+    height: 300px;
+    background-color: #0000ff;
+    position: absolute;
+}
+
+.stripe-two {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: 200px;
+}
+
+.stripe-three {
+    width: 200px;
+    height: 300px;
+    background-color: #f00;
+    position: absolute;
+    left: 400px;
+}
+
+.irish-flag {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;    
+    position: absolute;
+    top: 400px;
+    left: 58px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.irish-flag:hover {
+    opacity: 1;
+}
+
+.stripe-four {
+    width: 200px;
+    height: 300px;
+    background-color: #008000;
+    position: absolute;
+}
+
+.stripe-five {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: 200px;
+}
+
+.stripe-six {
+    width: 200px;
+    height: 300px;
+    background-color: #ffa500;
+    position: absolute;
+    left: 400px;
+}
+
