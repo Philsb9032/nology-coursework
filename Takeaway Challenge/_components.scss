@@ -1,0 +1,93 @@
+.navigation {
+    height: 10vh;
+    padding: 40px;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: $font-display;
+    font-size: 50px;
+    color: $color-white;
+}
+
+.button {
+
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    border: 2px solid ;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+    border: none;
+
+    &--form {
+        width: 100%;
+        margin-top: 30px;
+        background-color: $color-primary-light;
+        border: 2px solid #0963f6;
+    }
+
+    &--secondary {
+        background-color: $color-primary-light;
+        border: 2px solid #0963f6;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+}
+
+.intro {
+    text-align: center;
+
+
+    .intro__heading {
+        color: $color-black;
+        font-size: 50px;
+    }
+
+    .intro__sub-heading {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .intro__button {
+        margin: 0 auto;
+    }
+
+}
+
+.wave {
+    vertical-align: bottom;
+    fill-opacity: 1;
+    fill: #0963f6;
+}
+
+.form {
+    height: 200px;
+    width: 400px;
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer {
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+    &__text {
+        color: $color-white;
+    }
+
+}

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #202020;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.navigation {
+  height: 10vh;
+  padding: 40px;
+  background-color: #9c09f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: #f5f5f5;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  background-color: #f69c09;
+  border: 2px solid;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #f5f5f5;
+  border: none;
+}
+.button--form {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #1ECBE1;
+  border: 2px solid #0963f6;
+}
+.button--secondary {
+  background-color: #1ECBE1;
+  border: 2px solid #0963f6;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.intro {
+  text-align: center;
+}
+.intro .intro__heading {
+  color: #202020;
+  font-size: 50px;
+}
+.intro .intro__sub-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.intro .intro__button {
+  margin: 0 auto;
+}
+
+.wave {
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: #0963f6;
+}
+
+.form {
+  height: 200px;
+  width: 400px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #9c09f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.footer__text {
+  color: #f5f5f5;
+}
+
+.header {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0963f6;
+}
+
+.exit {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
