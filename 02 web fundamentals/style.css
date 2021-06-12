@@ -4,7 +4,7 @@
   font-family: tahoma, verdana, sans-serif;
 }
 
-*::selection{
+*::selection {
   color: white;
   background-color: blue;
 }
@@ -26,7 +26,7 @@ header h1 {
   font-size: 40px;
 }
 
-.card{
+.card {
   width: 300px;
   height: auto;
   border: 1px solid gold;
@@ -44,7 +44,7 @@ header h1 {
   opacity: 1;
 }
 
-.card1{
+.card1 {
   width: 300px;
   height: auto;
   border: 1px solid gray;
@@ -62,7 +62,7 @@ header h1 {
   opacity: 1;
 }
 
-.card2{
+.card2 {
   width: 300px;
   height: auto;
   border: 1px solid gray;
@@ -80,7 +80,7 @@ header h1 {
   opacity: 1;
 }
 
-.card3{
+.card3 {
   width: 300px;
   height: auto;
   border: 1px solid gray;
@@ -122,7 +122,7 @@ header h1 {
   border-radius: 30px;
 }
 
-h2, h3, h4, h5h6 {
+h2,h3,h4,h5,h6 {
   text-decoration: underline;
   font-size: 30px;
 }
@@ -131,7 +131,7 @@ h2, h3, h4, h5h6 {
   list-style-type: none;
 }
 
-li:hover{
+li:hover {
   color: blue;
 }
 
@@ -144,5 +144,35 @@ i {
   color: blue;
 }
 
+#top-panel {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+#middle-panel {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+#bottom-panel {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 230px;
+}
+
+.line-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vertical-line {
+  height: 100px;
+  width: 2px;
+  background-color: #000000;
+}
+
+.bottom-line-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 400px;
+}
